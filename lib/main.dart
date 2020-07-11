@@ -17,6 +17,50 @@ final gitPages = [
       name: 'What is Git? ',
       route: WhatisGit.routeName,
       builder: (context) => WhatisGit()),
+  Page(
+      name: 'Getting Started and Creating Projects',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Local Changes in Git',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Branching and Merging',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Commtting and Checking History',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Sharing and Updating Projects',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Undoing Changes',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Inspection and Comparison',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Debugging',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Stash',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Basic Workflows and Guidelines',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
+  Page(
+      name: 'Tips for using Git for Open Source Projects',
+      route: WhatisGit.routeName,
+      builder: (context) => WhatisGit()),
 ];
 
 final gitPageRoutes =
