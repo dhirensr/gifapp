@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'src/01_what_is_git.dart';
+import 'src/02_getting_started_and_creating_projects.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,8 +20,8 @@ final gitPages = [
       builder: (context) => WhatisGit()),
   Page(
       name: 'Getting Started and Creating Projects',
-      route: WhatisGit.routeName,
-      builder: (context) => WhatisGit()),
+      route: GettingStarted.routeName,
+      builder: (context) => GettingStarted()),
   Page(
       name: 'Local Changes in Git',
       route: WhatisGit.routeName,
